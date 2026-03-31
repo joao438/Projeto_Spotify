@@ -1,0 +1,8 @@
+[theme]
+
+
+primaryColor="#9fb9a8"                # verde spotify moderno
+backgroundColor="#d2e7cdee"             # fundo bem escuro
+secondaryBackgroundColor="#05721731"    # cards / sidebar
+textColor="#000000"                   # texto claro
+font="sans serif"
