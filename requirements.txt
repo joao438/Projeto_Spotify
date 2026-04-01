@@ -1,11 +1,8 @@
 streamlit
 requests
-psycopg2-binary
 sqlalchemy
 pandas
 plotly
 numpy
-python-dotenv
 psycopg2
 plotly.express
-create_engine
