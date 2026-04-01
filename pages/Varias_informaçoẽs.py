@@ -103,6 +103,11 @@ fig_pop = px.line(
     title=" Evolução da Popularidade Média (2010-2019)",
     color_discrete_sequence=["#1DB954"]
 )
+fig_pop.update_layout(
+    xaxis=dict(
+        tickmode='linear'
+    )
+)
 
 
 
@@ -132,6 +137,12 @@ fig_lanc = px.bar(
         "#0b3d2e" 
     ],
     title=" Número de Músicas Lançadas por Ano"
+
+)
+fig_lanc.update_layout(
+    xaxis=dict(
+        tickmode='linear'
+    )
 )
 st.divider()
 
@@ -166,6 +177,7 @@ fig_top5 = px.bar(
         "#0b3d2e"  
     ],
 )
+
 
 
 

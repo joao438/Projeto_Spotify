@@ -82,7 +82,7 @@ with st.container(border=True):
             key="avaliacao"
         )
 
-    enviar = st.button("Enviar 🚀")
+    enviar = st.button("Enviar ")
 
 # LÓGICA
 if enviar:
@@ -126,7 +126,7 @@ if enviar:
 if st.session_state.enviado:
     sucesso = st.empty()
 
-    sucesso.success("✅ Opinião enviada com sucesso!")
+    sucesso.success("Opinião enviada com sucesso!")
 
     time.sleep(2)
 
